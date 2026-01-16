@@ -1150,21 +1150,21 @@ body {
     font-size: 14px;
 } /* FAQ Section */
 .faq-section {
-    background-color: #0a0a0a;
+    background-color: #080808;
 }
 
 .faq-container {
-    max-width: 900px;
-    margin: 60px auto 0;
+    max-width: 1000px;
+    margin: 90px auto 0;
 }
 
 .faq-item {
     background-color: #1a1a1a;
     border: 2px solid rgba(255, 107, 0, 0.3);
-    border-radius: 12px;
+    border-radius: 16px;
     margin-bottom: 20px;
     overflow: hidden;
-    transition: all 0.3s;
+    transition: all 0.8s;
 }
 
 .faq-item:hover {
@@ -1172,7 +1172,7 @@ body {
 }
 
 .faq-question {
-    padding: 25px 30px;
+    padding: 25px 50px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -1189,8 +1189,86 @@ body {
 }
 
 .faq-icon {
-    font-size: 28px;
+    font-size: px;
     color: #ff6b00;
     font-weight: bold;
     transition: transform 0.3s;
+}
+/* Learn More Button & CTA */
+.cta-center {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-learn-more {
+    display: inline-block;
+    background-color: transparent;
+    color: #ff6b00;
+    border: 2px solid #ff6b00;
+    padding: 15px 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.btn-learn-more:hover {
+    background-color: #ff6b00;
+    color: #0a0a0a;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(255, 107, 0, 0.4);
+}
+
+.launch-badge-home {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.launch-badge-home span {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6b00, #ff8533);
+    color: #0a0a0a;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    animation: pulse 2s ease-in-out infinite;
+}/* Ordo Features Grid */
+.ordo-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.ordo-feature-box {
+    background-color: #0f0f0f;
+    border: 2px solid rgba(255, 107, 0, 0.3);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.ordo-feature-box:hover {
+    border-color: #ff6b00;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(255, 107, 0, 0.2);
+}
+
+.ordo-feature-box .feature-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.ordo-feature-box h4 {
+    color: #ff6b00;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.ordo-feature-box p {
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.6;
 }
