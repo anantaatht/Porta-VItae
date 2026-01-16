@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ordo - Porta Vitae Trading Empire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="3.png" alt="Porta Vitae" class="logo-img">
+            </a>
+            <ul class="nav-menu">
+                <li><a href="ordo.html">The Ordo</a></li>
+                <li><a href="signals.html">Signals</a></li>
+                <li><a href="university.html">University</a></li>
+                <li><a href="index.html#pricing">Pricing</a></li>
+            </ul>
+            <a href="payment.html" class="nav-cta">Join Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">⚔️ The Ordo</h1>
+            <p class="page-subtitle">The Inner Circle of Porta Vitae Trading Empire</p>
+        </div>
+    </section>
+
+
+    <!-- What You Get -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title-centered">What You Get as an Ordo Member</h2>
+            
+            <div class="ordo-features-grid">
+                <div class="ordo-feature-box">
+                    <div class="feature-icon"></div>
+                    <h4>Daily Macro Pulse</h4>
+                    <p>Daily insights on global macro movements and market sentiment</p>
+                </div>
+                
+                <div class="ordo-feature-box">
+                    <div class="feature-icon"></div>
+                    <h4>Global Macro Observatory</h4>
+                    <p>Deep-dive analysis of macro regimes and structural market shifts</p>
+                </div>
+                
+                <div class="ordo-feature-box">
+                    <div class="feature-icon"></div>
+                    <h4>Live Trade Sessions</h4>
+                    <p>3 sessions per week during NY trading hours - watch real execution in real-time</p>
+                </div>
+                
+                <div class="ordo-feature-box">
+                    <div class="feature-icon"></div>
+                    <h4>Private Discord Channels</h4>
+                    <p>Exclusive access to Ordo-only channels for structured discussion</p>
+                </div>
+                
+                <div class="ordo-feature-box">
+                    <div class="feature-icon"></div>
+                    <h4>Direct Access to Ananta</h4>
+                    <p>Ask questions, get feedback, and refine your approach with direct mentorship</p>
+                </div>
+                
+                <div class="ordo-feature-box">
+                    <div class="feature-icon"></div>
+                    <h4>Session Recordings</h4>
+                    <p>All live sessions recorded and archived for members who can't attend live</p>
+                </div>
+                
+                <div class="ordo-feature-box">
+                    <div class="feature-icon"></div>
+                    <h4>Free 1-on-1 Consultation</h4>
+                    <p>Personal strategy review and guidance session to align your approach</p>
+                </div>
+                
+                <div class="ordo-feature-box">
+                    <div class="feature-icon"></div>
+                    <h4>Access to Ananta's Trades</h4>
+                    <p>Follow real trades with full transparency - entries, exits, and reasoning</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title-centered">The Ordo Membership Pricing</h2>
+            
+            <div class="pricing-grid-single">
+                <div class="pricing-card-single">
+                    <div class="pricing-header">
+                        <h3> The Ordo</h3>
+                        <p>The Inner Circle</p>
+                    </div>
+                    <div class="pricing-body">
+                        <div class="price-item">
+                            <span>1 Month</span>
+                            <span class="price">$112</span>
+                        </div>
+                        <div class="price-item">
+                            <span>3 Months</span>
+                            <span class="price">$312</span>
+                        </div>
+                        <div class="price-item">
+                            <span>6 Months</span>
+                            <span class="price">$600</span>
+                        </div>
+                        <div class="price-item">
+                            <span>1 Year</span>
+                            <span class="price">$1,000</span>
+                        </div>
+                        <div class="price-item featured">
+                            <span>Lifetime</span>
+                            <span class="price">$1,500</span>
+                            <span class="badge">Best Value</span>
+                        </div>
+                    </div>
+                    <a href="payment.html" class="pricing-btn">Join The Ordo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="3.png" alt="Porta Vitae" class="footer-logo-img">
+                    <p>Build conviction. Execute with discipline. Master the markets.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="ordo.html">The Ordo</a></li>
+                        <li><a href="signals.html">Signals</a></li>
+                        <li><a href="university.html">Trading University</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://x.com/Porta_Vitae" target="_blank" class="social-link">
+                            <span class="social-icon">𝕏</span>
+                            <span>@Porta_Vitae</span>
+                        </a>
+                        <a href="https://x.com/AnantaSumantera" target="_blank" class="social-link">
+                            <span class="social-icon">𝕏</span>
+                            <span>@AnantaSumantera</span>
+                        </a>
+                        <a href="https://discord.com/invite/vgswejqd" target="_blank" class="social-link">
+                            <span class="social-icon">⚔️</span>
+                            <span>Discord</span>
+                        </a>
+                        <a href="mailto:portavitaet@gmail.com" class="social-link">
+                            <span class="social-icon">📧</span>
+                            <span>portavitaet@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Porta Vitae Trading Empire. All rights reserved.</p>
+                <p class="disclaimer">Trading involves risk. Past performance does not guarantee future results.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
