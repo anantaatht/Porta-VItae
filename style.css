@@ -1194,6 +1194,77 @@ body {
     font-weight: bold;
     transition: transform 0.3s;
 }
+/* FAQ Section */
+.faq-section {
+    background-color: #0a0a0a;
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: 60px auto 0;
+}
+
+.faq-item {
+    background-color: #1a1a1a;
+    border: 2px solid rgba(255, 107, 0, 0.3);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.faq-item:hover {
+    border-color: #ff6b00;
+}
+
+.faq-question {
+    padding: 25px 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+
+.faq-question h3 {
+    color: #e0e0e0;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.faq-icon {
+    font-size: 28px;
+    color: #ff6b00;
+    font-weight: bold;
+    transition: transform 0.3s;
+    flex-shrink: 0;
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    padding: 0 40px;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 500px;
+    padding: 20px 40px 30px 40px;
+}
+
+.faq-answer p {
+    color: #ccc;
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 0;
+}
 /* Learn More Button & CTA */
 .cta-center {
     text-align: center;
